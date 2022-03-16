@@ -27,8 +27,8 @@ public class Adulto extends Humano{
         return NISS;
     }
  /**
-     * Modifica el NISS de la persona
-     * @param NISS
+     *Modifica el NISS de la persona
+     *@param NISS
      */
     public void setNISS(String NISS) {
         this.NISS = NISS;
