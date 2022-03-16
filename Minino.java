@@ -8,22 +8,22 @@ package intento4;
  *
  * @author Cortavarria Andara,José Noel
  */
-public class Gato extends Mascota{
+public class Minino extends Mascota{
     private String raza;
     //Constructores
 
-    public Gato(String raza, String nombre, Integer edad) {
+    public Minino(String raza, String nombre, Integer edad) {
         super(nombre, edad);
         this.raza = raza;
     }
 
-    public Gato(String raza) {
+    public Minino(String raza) {
         this.raza = raza;
     }
 
 
 //Getters y setters
-    public Gato(){
+    public Minino(){
     
     }
 

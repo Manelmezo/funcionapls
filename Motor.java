@@ -4,12 +4,14 @@
  */
 package intento4;
 
+import intento4.Sonido;
+
 /**
  *
  * @author Cortavarria Andara,José Noel
  */
 //Implementamos la interfaz Sonido en Motor, más abajo hacemos un override ya que motor no esta definida como abstracta
-public class Motor implements Sonido {
+public class Motor implements NewInterface {
     private String fabricante;
     private String potencia;
     private Integer codigo;
@@ -24,26 +26,32 @@ public class Motor implements Sonido {
 
 //GETTERS AND SETTERS
 
+    @Override
     public String getFabricante() {
         return fabricante;
     }
 
+    @Override
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
 
+    @Override
     public String getPotencia() {
         return potencia;
     }
 
+    @Override
     public void setPotencia(String potencia) {
         this.potencia = potencia;
     }
 
+    @Override
     public Integer getCodigo() {
         return codigo;
     }
 
+    @Override
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
     }
