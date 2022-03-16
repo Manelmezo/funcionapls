@@ -38,12 +38,14 @@ public class Adulto extends Humano{
     public String getDireccion() {
         return direccion;
     }
- /*@par
+ /*Modifica la direccion de la persona
+ @param direccion
  */
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    //toString
+    /*método toString
+    toString*/
 
     @Override
     public String toString() {
