@@ -3,7 +3,7 @@ package intento4;
 
 /**
  *
- * @author Cortavarria Andara,José Noel
+ * @author Cortavarria Andara,José Noel cmabio
  */
 public class Perro extends Mascota{
 //Atributo
