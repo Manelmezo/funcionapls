@@ -8,7 +8,9 @@ package intento4;
  *
  * @author manel
  */
-public class Adulto extends Persona{
+
+public class Adulto extends Humano{
+
     private String NISS =new String();
     private String direccion =new String();
     //Constructor

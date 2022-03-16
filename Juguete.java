@@ -8,7 +8,8 @@ package intento4;
  *
  * @author manel
  */
-public class Juguete extends Niño{
+
+public class Juguete extends Infante{
     //atributos
     private String nombre_juguete = new String();
     private Integer precio;

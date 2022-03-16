@@ -8,18 +8,18 @@ package intento4;
  *
  * @author manel
  */
-public abstract class Persona {
+public abstract class Humano {
     //atributs
     private String nombre =new String();
     private String DNI =new String();
     private Integer edad;
     //constructor
-    public Persona(String nombre, String DNI, Integer edad) {
+    public Humano(String nombre, String DNI, Integer edad) {
         this.nombre = nombre;
         this.DNI = DNI;
         this.edad = edad;
     }
-    public Persona(){
+    public Humano(){
     }
     //getters i setters
     public String getNombre() {

@@ -8,15 +8,15 @@ package intento4;
  *
  * @author manel
  */
-public class Niño extends Persona{
+public class Infante extends Humano{
     //atributos
     private String colegio = new String();
     //constructor
-    public Niño(String nombre, String DNI, Integer edad) {
+    public Infante(String nombre, String DNI, Integer edad) {
         super(nombre, DNI, edad);
     }
 
-    public Niño() {
+    public Infante() {
     }
     //setters i getters
     public String getColegio() {
