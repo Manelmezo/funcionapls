@@ -3,12 +3,12 @@ package intento4;
 
 /**
  *
- * @author Cortavarria Andara,José Noel
+ * @author Cortavarria Andara,José Noel ,ZAMBRANA,Manel
  */
 public class Perro extends Mascota{
-//Atributo
+/*private String raza*/
     private String raza;
-//Constructores
+/*Constructor clase perro*/
 
     public Perro(String raza, String nombre, Integer edad) {
         super(nombre, edad);
@@ -18,24 +18,26 @@ public class Perro extends Mascota{
     public Perro(String raza) {
         this.raza = raza;
     }
+    /*Devuelve la raza del perro
+        @return raza */
 
-//Getters and setters
     public String getRaza() {
         return raza;
     }
-
+/*Modifica la raza de la mascota
+    @param  raza*/
     public void setRaza(String raza) {
         this.raza = raza;
     }
     
- //toString
+ /*toString*/
     
 
     @Override
     public String toString() {
         return "Perro{" + "raza=" + raza + '}';
     }
-
+/* override de la interfaz sonido para poder utilizarla en la clase perro*/
     @Override
     public void sonido() {
         
