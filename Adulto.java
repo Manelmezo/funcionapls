@@ -1,15 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package intento4;
 
 /**
  *
- * @author manel
+ * @author ZAMBRANA,Manel y CORTAVARRIA,Noel
  */
 public class Adulto extends Humano{
+     /*private String NISS*/
     private String NISS =new String();
+    /*private String direccion*/    
     private String direccion =new String();
     //Constructor
     public Adulto(String nombre, String DNI, Integer edad) {
@@ -19,18 +18,25 @@ public class Adulto extends Humano{
     public Adulto() {
     }
     //getters i setters
+     /*Devuelve el  NISS
+        @return NISS de la persona */
     public String getNISS() {
         return NISS;
     }
+      /*Modifica el NISS de la persona
+    @param  NISS*/
 
     public void setNISS(String NISS) {
         this.NISS = NISS;
     }
-
+     /*Devuelve la direccion de una persona
+    @return direccion*/
     public String getDireccion() {
         return direccion;
     }
-
+     
+    /*Modifica la direccion
+    @param direccion*/
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
