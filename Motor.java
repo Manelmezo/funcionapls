@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package intento4;
 
+package intento4;
+/*@version 5.0.0 */
 /**
  *
  * @author Cortavarria Andara,José Noel
@@ -23,33 +20,43 @@ public class Motor implements Sonido {
     }
 
 //GETTERS AND SETTERS
+    /*Devuelve el  fabricante
+        @return fabricante */
 
     public String getFabricante() {
         return fabricante;
     }
-
+    /*Modifica  el fabricante
+    @param fabricante*/
     public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
-
+    /*Devuelve la potencia del motor
+        @return potencia*/
     public String getPotencia() {
         return potencia;
     }
+    /*Modifica la potencia
+        @param potencia*/
 
     public void setPotencia(String potencia) {
         this.potencia = potencia;
     }
+     /*Devuelve el codigo 
+    @return codigo*/
 
     public Integer getCodigo() {
         return codigo;
     }
+       /*Modifica el codigo
+        @param codigo*/
 
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
     }
 
 
-//    METODO toString
+/*Método toString*/
 
     @Override
     public String toString() {
